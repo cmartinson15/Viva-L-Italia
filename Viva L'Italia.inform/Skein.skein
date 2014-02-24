@@ -1,11 +1,155 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x960f6e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x18b38a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x960f6e0" />
-  <item nodeId="node-0x960f6e0">
+  <activeNode nodeId="node-0x11637300" />
+  <item nodeId="node-0x18b38a0">
     <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+The final game of the Fifa World Cup 2014 has just finished. Italy has just beaten Brazil and all of the Italy fans are as happy as a kid in a candy shop and all that candy is free. As an Italy fan you are no exception and the body paint covering your head and torso seems to shine in the lights of the stadium. However the home fans can be catergorized as nothing less than a furious angry mob. As the home fans start charging over to your side of the stadium you and the rest of the Italy fans start running for your lives. As you peer down at the field you can see the Italian soccer team also being chased down by a bunch of angry Brazillians and you can only hope that everyone is able to escape without injury. No matter how big this stadium is seeing that many people charging is a sight that would make any grown man tremble. After hiding in the bathroom for a little bit you walk out into the Concouse and see the angry mob of Brazillians running off into the street.
+
+Viva L&apos;Italia
+An Interactive Fiction by Cody Martinson The Maximum score is 4
+Release 1 / Serial number 140221 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Stadium Concourse
+The stadium concourse, you can see the angry mob of Brazillians running off into the distance. Around you there are food kiosks and booths selling booster wear for Brazil, Italy, and FIFA. There&apos;s also a trashcan, recycle bin, and trash on the ground. There&apos;s a garage to the north of you.
+
+You can see Bottles, FIFA Booster Wear, Brazil Booster Wear, Italy Booster Wear and Trash here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="13">NO</temporary>
+    <children>
+      <child nodeId="node-0xcc69020" />
+      <child nodeId="node-0x1bc6350" />
+      <child nodeId="node-0xcc49630" />
+      <child nodeId="node-0x11637300" />
+    </children>
+  </item>
+  <item nodeId="node-0x11637300">
+    <command xml:space="preserve">take brazil</command>
+    <result xml:space="preserve">You will not dirty your hands by touching that filth.
+
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="0">NO</temporary>
+    <temporary score="12">YES</temporary>
+  </item>
+  <item nodeId="node-0xcc49630">
+    <command xml:space="preserve">x recycle bing</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine the Recycle Bin.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b3d1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b3d1f0">
+    <command xml:space="preserve">x recycle</command>
+    <result xml:space="preserve">A recycle bin, you can see bottles of different drinks inside. For some reason there seems to be an unopened can of soda inside the bin as well.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0xb1c4e70" />
+    </children>
+  </item>
+  <item nodeId="node-0xb1c4e70">
+    <command xml:space="preserve">x recycle</command>
+    <result xml:space="preserve">A recycle bin, you can see bottles of different drinks inside. For some reason there seems to be an unopened can of soda inside the bin as well.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x715bc30" />
+    </children>
+  </item>
+  <item nodeId="node-0x715bc30">
+    <command xml:space="preserve">take soda</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x71c4250" />
+    </children>
+  </item>
+  <item nodeId="node-0x71c4250">
+    <command xml:space="preserve">x soda</command>
+    <result xml:space="preserve">A can of Sprite. You put it in your bag for later.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bc6350">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the Bag)
+An Italy booster bag, why would you have anything else. Everything you take will end up in here so there&apos;s no need to carry all that wierd stuff.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0xb130620" />
+    </children>
+  </item>
+  <item nodeId="node-0xb130620">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  a Bag
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0xcc69020">
+    <command xml:space="preserve">take fifa</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0xab96560" />
+    </children>
+  </item>
+  <item nodeId="node-0xab96560">
+    <command xml:space="preserve">take italy</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0xdf4ecb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdf4ecb0">
+    <command xml:space="preserve">take brazil</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
   </item>
 </Skein>
