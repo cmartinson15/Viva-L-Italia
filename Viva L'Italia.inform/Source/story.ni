@@ -42,7 +42,15 @@ The Bus is a room. It is west of the Garage. The description of the Bus is "The 
 Bags are a thing in the Bus. It is fixed in place. The description of the Bags is "It looks to be the team's gear."
 Instead of taking Bags:
 	say "As you move to take a closer look at the bags a man bursts from the pile and lands a solid kick to your abdomen. You stagger backwards and lift your arms to block yourself from another hit. As you get a better look at your assilant you gasp in surprise. It's El Sharaawy, your favorite player on the entire Italian team. As he realizes you're wearing Italian colors he rushes over to check on you. He explains that when the Brazil fans came charging the rest of the team ran but even though he was the fastest he knew hiding was a better option. You can't just leave him here alone. You have to take him with you but he's very adamant about staying. Time for you to do some fancy talking."
-El Sharaawy is a man in the Bus. The description of El Sharaawy is "Your favorite soccer player in the world. Not only is he super fast but he has a sick mohawk."
+El Sharaawy is a man in the Bus. The description of El Sharaawy is "Your favorite soccer player in the world. Not only is he super fast but he has a sick mohawk." He is wearing a Soccer Jersey.
+If the player has met El Sharaawy:
+	An every turn rule:
+	if the location of El Sharaawy is not the location of the player:
+		let the way be the best route from the location of El Sharaawy to the location of the player;
+		try El Sharaawy going the way;
+	otherwise:
+		Every turn when a random chance of 1 in 5 succeeds:
+			say "'We better move quietly', El Sharaawy says."
 [The Back Street]
 The Back Street is a room. It is east of the Garage. It is south of the Hotel. The description of the Back Street is "A dingy back street, unfitting of the World Cup. By the dim light of the one lamp post you can see multiple trash cans and trash bags lying around."
 

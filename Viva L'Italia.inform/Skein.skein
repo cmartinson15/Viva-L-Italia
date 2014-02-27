@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x979ad70" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x954ce00" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x979ad70" />
-  <item nodeId="node-0x979ad70">
+  <activeNode nodeId="node-0x9a2ae20" />
+  <item nodeId="node-0x954ce00">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -12,7 +12,7 @@ The final game of the Fifa World Cup 2014 has just finished. Italy has just beat
 
 Viva L&apos;Italia
 An Interactive Fiction by $wag Meister Cody Martinson The Maximum score is 4
-Release 1 / Serial number 140225 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140227 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Stadium Concourse
 The stadium concourse, you can see the angry mob of Brazillians running off into the distance. Around you there are food kiosks and booths selling booster wear for Brazil, Italy, and FIFA. There&apos;s also a trashcan, recycle bin, and trash on the ground. There&apos;s a garage to the north of you.
@@ -22,18 +22,638 @@ You can see Bottles, FIFA Booster Wear, Brazil Booster Wear, Italy Booster Wear 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="23">NO</temporary>
+    <temporary score="51">NO</temporary>
     <children>
-      <child nodeId="node-0x979b150" />
-      <child nodeId="node-0x979adc0" />
-      <child nodeId="node-0x979ac70" />
-      <child nodeId="node-0x97a9890" />
-      <child nodeId="node-0x97a2d00" />
-      <child nodeId="node-0xc223450" />
-      <child nodeId="node-0x97fb9e0" />
+      <child nodeId="node-0x951a990" />
+      <child nodeId="node-0x951abc0" />
+      <child nodeId="node-0x951ac30" />
+      <child nodeId="node-0x187f8b0" />
+      <child nodeId="node-0x951b200" />
+      <child nodeId="node-0x951b1b0" />
+      <child nodeId="node-0x951b350" />
+      <child nodeId="node-0x954cc80" />
+      <child nodeId="node-0x1b11c70" />
+      <child nodeId="node-0xd57e400" />
     </children>
   </item>
-  <item nodeId="node-0x97fb9e0">
+  <item nodeId="node-0xd57e400">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0xb9a7650" />
+    </children>
+  </item>
+  <item nodeId="node-0xb9a7650">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b11c70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xc77c730" />
+    </children>
+  </item>
+  <item nodeId="node-0xc77c730">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+El Sharaawy arrives from the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x9ae6790" />
+    </children>
+  </item>
+  <item nodeId="node-0x9ae6790">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&quot;We better move quietly&quot;, El Sharaawy says.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xd5de980" />
+    </children>
+  </item>
+  <item nodeId="node-0xd5de980">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1818720" />
+    </children>
+  </item>
+  <item nodeId="node-0x1818720">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xb9ec9a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb9ec9a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1839350" />
+    </children>
+  </item>
+  <item nodeId="node-0x1839350">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x95c3ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x95c3ff0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1805290" />
+    </children>
+  </item>
+  <item nodeId="node-0x1805290">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xb9a7b60" />
+    </children>
+  </item>
+  <item nodeId="node-0xb9a7b60">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a04dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a04dc0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xc776220" />
+    </children>
+  </item>
+  <item nodeId="node-0xc776220">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xb99b5c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb99b5c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Garage
+The stadium garage. There are still tons of cars here, everyone must have just chosen to run instead of trying to drive off. You can see a fancy bus to the east of you and the street that runs behind the stadium to the west of you.
+
+El Sharaawy arrives from the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bc05c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bc05c0">
+    <command xml:space="preserve">m</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x9509800" />
+    </children>
+  </item>
+  <item nodeId="node-0x9509800">
+    <command xml:space="preserve">k</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a096f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a096f0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Garage
+The stadium garage. There are still tons of cars here, everyone must have just chosen to run instead of trying to drive off. You can see a fancy bus to the east of you and the street that runs behind the stadium to the west of you.
+
+You can see El Sharaawy here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x9502410" />
+    </children>
+  </item>
+  <item nodeId="node-0x9502410">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">Sorry, that can&apos;t be corrected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xb9a7a50" />
+    </children>
+  </item>
+  <item nodeId="node-0xb9a7a50">
+    <command xml:space="preserve">r</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x181cc60" />
+    </children>
+  </item>
+  <item nodeId="node-0x181cc60">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Stadium Concourse
+The stadium concourse, you can see the angry mob of Brazillians running off into the distance. Around you there are food kiosks and booths selling booster wear for Brazil, Italy, and FIFA. There&apos;s also a trashcan, recycle bin, and trash on the ground. There&apos;s a garage to the north of you.
+
+You can see Bottles, FIFA Booster Wear, Brazil Booster Wear, Italy Booster Wear and Trash here.
+
+El Sharaawy arrives from the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xd5b0c40" />
+    </children>
+  </item>
+  <item nodeId="node-0xd5b0c40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Garage
+The stadium garage. There are still tons of cars here, everyone must have just chosen to run instead of trying to drive off. You can see a fancy bus to the east of you and the street that runs behind the stadium to the west of you.
+
+El Sharaawy arrives from the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xb9c84c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb9c84c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Bus
+The Italian team&apos;s bus! Worried about the team you rush inside the bus to find it almost completely empty. As you move past the rows of comfortable seats you reach the back of the bus and find a pile of bags on the seats.
+
+You can see Bags here.
+
+El Sharaawy arrives from the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xd5ae920" />
+    </children>
+  </item>
+  <item nodeId="node-0xd5ae920">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Garage
+The stadium garage. There are still tons of cars here, everyone must have just chosen to run instead of trying to drive off. You can see a fancy bus to the east of you and the street that runs behind the stadium to the west of you.
+
+El Sharaawy arrives from the west.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1824510" />
+    </children>
+  </item>
+  <item nodeId="node-0x1824510">
+    <command xml:space="preserve">r</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xb9cbd10" />
+    </children>
+  </item>
+  <item nodeId="node-0xb9cbd10">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&quot;We better move quietly&quot;, El Sharaawy says.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xcdf98f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcdf98f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xcd93d50" />
+    </children>
+  </item>
+  <item nodeId="node-0xcd93d50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xd5b9570" />
+    </children>
+  </item>
+  <item nodeId="node-0xd5b9570">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xcdde3a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcdde3a0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x95e4f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x95e4f60">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xd5b6e40" />
+    </children>
+  </item>
+  <item nodeId="node-0xd5b6e40">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bc0f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bc0f70">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xcd78b50" />
+    </children>
+  </item>
+  <item nodeId="node-0xcd78b50">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xcda83d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcda83d0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xcddb770" />
+    </children>
+  </item>
+  <item nodeId="node-0xcddb770">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xcd532f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcd532f0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x9520230" />
+    </children>
+  </item>
+  <item nodeId="node-0x9520230">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xcd8b7c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xcd8b7c0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a03850" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a03850">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xd5e8010" />
+    </children>
+  </item>
+  <item nodeId="node-0xd5e8010">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xd58afd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xd58afd0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Stadium Concourse
+The stadium concourse, you can see the angry mob of Brazillians running off into the distance. Around you there are food kiosks and booths selling booster wear for Brazil, Italy, and FIFA. There&apos;s also a trashcan, recycle bin, and trash on the ground. There&apos;s a garage to the north of you.
+
+You can see Bottles, FIFA Booster Wear, Brazil Booster Wear, Italy Booster Wear and Trash here.
+
+El Sharaawy arrives from the north.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xcd76b20" />
+    </children>
+  </item>
+  <item nodeId="node-0xcd76b20">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the Bag)
+An Italy booster bag, why would you have anything else. Everything you take will end up in here so there&apos;s no need to carry all that wierd stuff.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a711c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a711c0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the Bag)
+An Italy booster bag, why would you have anything else. Everything you take will end up in here so there&apos;s no need to carry all that wierd stuff.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0xc77c290" />
+    </children>
+  </item>
+  <item nodeId="node-0xc77c290">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the Bag)
+An Italy booster bag, why would you have anything else. Everything you take will end up in here so there&apos;s no need to carry all that wierd stuff.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x9aa04c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9aa04c0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the Bag)
+An Italy booster bag, why would you have anything else. Everything you take will end up in here so there&apos;s no need to carry all that wierd stuff.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x9ad5a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x9ad5a80">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the Bag)
+An Italy booster bag, why would you have anything else. Everything you take will end up in here so there&apos;s no need to carry all that wierd stuff.
+
+&quot;We better move quietly&quot;, El Sharaawy says.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="51">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a2ae20" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a2ae20">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">(the Bag)
+An Italy booster bag, why would you have anything else. Everything you take will end up in here so there&apos;s no need to carry all that wierd stuff.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+  </item>
+  <item nodeId="node-0x954cc80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Garage
@@ -44,10 +664,10 @@ The stadium garage. There are still tons of cars here, everyone must have just c
     <changed>NO</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x97dcc20" />
+      <child nodeId="node-0x954ccd0" />
     </children>
   </item>
-  <item nodeId="node-0x97dcc20">
+  <item nodeId="node-0x954ccd0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bus
@@ -60,10 +680,10 @@ You can see Bags and El Sharaawy here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0xaa480e0" />
+      <child nodeId="node-0x954cd20" />
     </children>
   </item>
-  <item nodeId="node-0xaa480e0">
+  <item nodeId="node-0x954cd20">
     <command xml:space="preserve">x el</command>
     <result xml:space="preserve">Your favorite soccer player in the world. Not only is he super fast but he has a sick mohawk.
 
@@ -72,10 +692,10 @@ You can see Bags and El Sharaawy here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0xc399ea0" />
+      <child nodeId="node-0x954cd70" />
     </children>
   </item>
-  <item nodeId="node-0xc399ea0">
+  <item nodeId="node-0x954cd70">
     <command xml:space="preserve">x sharaawy</command>
     <result xml:space="preserve">Your favorite soccer player in the world. Not only is he super fast but he has a sick mohawk.
 
@@ -84,10 +704,10 @@ You can see Bags and El Sharaawy here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x971b260" />
+      <child nodeId="node-0x951b580" />
     </children>
   </item>
-  <item nodeId="node-0x971b260">
+  <item nodeId="node-0x951b580">
     <command xml:space="preserve">x el</command>
     <result xml:space="preserve">Your favorite soccer player in the world. Not only is he super fast but he has a sick mohawk.
 
@@ -96,10 +716,10 @@ You can see Bags and El Sharaawy here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x18dd680" />
+      <child nodeId="node-0x951b530" />
     </children>
   </item>
-  <item nodeId="node-0x18dd680">
+  <item nodeId="node-0x951b530">
     <command xml:space="preserve">x el</command>
     <result xml:space="preserve">Your favorite soccer player in the world. Not only is he super fast but he has a sick mohawk.
 
@@ -108,10 +728,10 @@ You can see Bags and El Sharaawy here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x988b010" />
+      <child nodeId="node-0x951b460" />
     </children>
   </item>
-  <item nodeId="node-0x988b010">
+  <item nodeId="node-0x951b460">
     <command xml:space="preserve">x el</command>
     <result xml:space="preserve">Your favorite soccer player in the world. Not only is he super fast but he has a sick mohawk.
 
@@ -120,10 +740,10 @@ You can see Bags and El Sharaawy here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x98d20a0" />
+      <child nodeId="node-0x951b410" />
     </children>
   </item>
-  <item nodeId="node-0x98d20a0">
+  <item nodeId="node-0x951b410">
     <command xml:space="preserve">x el sharaawy</command>
     <result xml:space="preserve">Your favorite soccer player in the world. Not only is he super fast but he has a sick mohawk.
 
@@ -132,10 +752,10 @@ You can see Bags and El Sharaawy here.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0xf859ca0" />
+      <child nodeId="node-0x951b3c0" />
     </children>
   </item>
-  <item nodeId="node-0xf859ca0">
+  <item nodeId="node-0x951b3c0">
     <command xml:space="preserve">x el</command>
     <result xml:space="preserve">Your favorite soccer player in the world. Not only is he super fast but he has a sick mohawk.
 
@@ -144,7 +764,7 @@ You can see Bags and El Sharaawy here.
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
   </item>
-  <item nodeId="node-0xc223450">
+  <item nodeId="node-0x951b350">
     <command xml:space="preserve">x El Sharaawt</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -153,10 +773,10 @@ You can see Bags and El Sharaawy here.
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x989ed90" />
+      <child nodeId="node-0x951b2e0" />
     </children>
   </item>
-  <item nodeId="node-0x989ed90">
+  <item nodeId="node-0x951b2e0">
     <command xml:space="preserve">x El Sharaawy</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -165,7 +785,7 @@ You can see Bags and El Sharaawy here.
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
   </item>
-  <item nodeId="node-0x97a2d00">
+  <item nodeId="node-0x951b1b0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Garage
@@ -176,10 +796,10 @@ The stadium garage. There are still tons of cars here, everyone must have just c
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x983fc30" />
+      <child nodeId="node-0x951b160" />
     </children>
   </item>
-  <item nodeId="node-0x983fc30">
+  <item nodeId="node-0x951b160">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Back Street
@@ -189,10 +809,10 @@ Back Street
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0xc3550a0" />
+      <child nodeId="node-0x951b110" />
     </children>
   </item>
-  <item nodeId="node-0xc3550a0">
+  <item nodeId="node-0x951b110">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Garage
@@ -203,10 +823,10 @@ The stadium garage. There are still tons of cars here, everyone must have just c
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x987fba0" />
+      <child nodeId="node-0x951b0c0" />
     </children>
   </item>
-  <item nodeId="node-0x987fba0">
+  <item nodeId="node-0x951b0c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bus
@@ -216,10 +836,10 @@ Bus
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x97bd5e0" />
+      <child nodeId="node-0x951b070" />
     </children>
   </item>
-  <item nodeId="node-0x97bd5e0">
+  <item nodeId="node-0x951b070">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -228,10 +848,10 @@ Bus
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x1bcf410" />
+      <child nodeId="node-0x951b000" />
     </children>
   </item>
-  <item nodeId="node-0x1bcf410">
+  <item nodeId="node-0x951b000">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -240,10 +860,10 @@ Bus
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0xc3876f0" />
+      <child nodeId="node-0x951af90" />
     </children>
   </item>
-  <item nodeId="node-0xc3876f0">
+  <item nodeId="node-0x951af90">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -252,10 +872,10 @@ Bus
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0xc38bee0" />
+      <child nodeId="node-0x951af20" />
     </children>
   </item>
-  <item nodeId="node-0xc38bee0">
+  <item nodeId="node-0x951af20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -264,10 +884,10 @@ Bus
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0xaa9cd90" />
+      <child nodeId="node-0x951b260" />
     </children>
   </item>
-  <item nodeId="node-0xaa9cd90">
+  <item nodeId="node-0x951b260">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -276,7 +896,7 @@ Bus
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
   </item>
-  <item nodeId="node-0x97a9890">
+  <item nodeId="node-0x951b200">
     <command xml:space="preserve">take fifa</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -285,10 +905,10 @@ Bus
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x97a98e0" />
+      <child nodeId="node-0x951ad10" />
     </children>
   </item>
-  <item nodeId="node-0x97a98e0">
+  <item nodeId="node-0x951ad10">
     <command xml:space="preserve">take italy</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -297,10 +917,10 @@ Bus
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x97a9950" />
+      <child nodeId="node-0x951aca0" />
     </children>
   </item>
-  <item nodeId="node-0x97a9950">
+  <item nodeId="node-0x951aca0">
     <command xml:space="preserve">take brazil</command>
     <result xml:space="preserve">That&apos;s fixed in place.
 
@@ -309,7 +929,30 @@ Bus
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
   </item>
-  <item nodeId="node-0x979ac70">
+  <item nodeId="node-0x187f8b0">
+    <command xml:space="preserve">take bottles</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0xb98ae80" />
+    </children>
+  </item>
+  <item nodeId="node-0xb98ae80">
+    <command xml:space="preserve">take fifa booster wear</command>
+    <result xml:space="preserve">El Sharaawy arrives from the north.
+
+[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0x951ac30">
     <command xml:space="preserve">take brazil</command>
     <result xml:space="preserve">You will not dirty your hands by touching that filth.
 
@@ -318,7 +961,7 @@ Bus
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
   </item>
-  <item nodeId="node-0x979adc0">
+  <item nodeId="node-0x951abc0">
     <command xml:space="preserve">x recycle bing</command>
     <result xml:space="preserve">I only understood you as far as wanting to examine the Recycle Bin.
 
@@ -327,10 +970,10 @@ Bus
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x979ae10" />
+      <child nodeId="node-0x951ab50" />
     </children>
   </item>
-  <item nodeId="node-0x979ae10">
+  <item nodeId="node-0x951ab50">
     <command xml:space="preserve">x recycle</command>
     <result xml:space="preserve">A recycle bin, you can see bottles of different drinks inside. For some reason there seems to be an unopened can of soda inside the bin as well.
 
@@ -339,10 +982,10 @@ Bus
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x979ae60" />
+      <child nodeId="node-0x951aae0" />
     </children>
   </item>
-  <item nodeId="node-0x979ae60">
+  <item nodeId="node-0x951aae0">
     <command xml:space="preserve">x recycle</command>
     <result xml:space="preserve">A recycle bin, you can see bottles of different drinks inside. For some reason there seems to be an unopened can of soda inside the bin as well.
 
@@ -351,10 +994,10 @@ Bus
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x979b010" />
+      <child nodeId="node-0x951aa70" />
     </children>
   </item>
-  <item nodeId="node-0x979b010">
+  <item nodeId="node-0x951aa70">
     <command xml:space="preserve">take soda</command>
     <result xml:space="preserve">[Your score has just gone up by one point.]
 
@@ -363,10 +1006,10 @@ Bus
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x979b060" />
+      <child nodeId="node-0x951aa00" />
     </children>
   </item>
-  <item nodeId="node-0x979b060">
+  <item nodeId="node-0x951aa00">
     <command xml:space="preserve">x soda</command>
     <result xml:space="preserve">A can of Sprite. You put it in your bag for later.
 
@@ -375,7 +1018,7 @@ Bus
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
   </item>
-  <item nodeId="node-0x979b150">
+  <item nodeId="node-0x951a990">
     <command xml:space="preserve">x</command>
     <result xml:space="preserve">(the Bag)
 An Italy booster bag, why would you have anything else. Everything you take will end up in here so there&apos;s no need to carry all that wierd stuff.
@@ -385,10 +1028,10 @@ An Italy booster bag, why would you have anything else. Everything you take will
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0x979b1a0" />
+      <child nodeId="node-0x951a920" />
     </children>
   </item>
-  <item nodeId="node-0x979b1a0">
+  <item nodeId="node-0x951a920">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   a Bag
