@@ -11,7 +11,7 @@
 The final game of the Fifa World Cup 2014 has just finished. Italy has just beaten Brazil and all of the Italy fans are as happy as a kid in a candy shop and all that candy is free. As an Italy fan you are no exception and the body paint covering your head and torso seems to shine in the lights of the stadium. However the home fans can be categorized as nothing less than a furious angry mob. As the home fans start charging over to your side of the stadium you and the rest of the Italy fans start running for your lives. As you peer down at the field you can see the Italian soccer team also being chased down by a bunch of angry Brazilians and you can only hope that everyone is able to escape without injury. No matter how big this stadium is seeing that many people charging is a sight that would make any grown man tremble. After hiding in the bathroom for a little bit you walk out into the Concourse and see the angry mob of Brazilians running off into the street.
 
 Viva L&apos;Italia
-An Interactive Fiction by Cody Martinson The Maximum score is 4
+An Interactive Fiction by Cody Martinson The Maximum score is 6
 Release 1 / Serial number 140306 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Stadium Concourse
@@ -21,14 +21,11 @@ You can see Bottles, FIFA Booster Wear, Brazil Booster Wear, Italy Booster Wear 
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="54">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="130">NO</temporary>
     <children>
       <child nodeId="node-0x6f5a920" />
-      <child nodeId="node-0x6f5a840" />
-      <child nodeId="node-0x6f5a610" />
       <child nodeId="node-0x6f5a5a0" />
-      <child nodeId="node-0x6f5a4c0" />
       <child nodeId="node-0x6f5a370" />
       <child nodeId="node-0x6f59f80" />
       <child nodeId="node-0x6f59ea0" />
@@ -197,18 +194,6 @@ You can see Bags here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0xbaaba30" />
-    </children>
-  </item>
-  <item nodeId="node-0xbaaba30">
-    <command xml:space="preserve">x El</command>
-    <result xml:space="preserve">Your favorite soccer player in the world. Not only is he super fast but he has a sick mohawk.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
   </item>
   <item nodeId="node-0x18beee0">
     <command xml:space="preserve">w</command>
@@ -804,10 +789,12 @@ You can see a Garage Door here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="54">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
     <children>
+      <child nodeId="node-0x7424620" />
       <child nodeId="node-0x6f59b20" />
+      <child nodeId="node-0x1051b460" />
       <child nodeId="node-0x6f585b0" />
     </children>
   </item>
@@ -1446,22 +1433,51 @@ El Sharaawy arrives from the west.
     <changed>YES</changed>
     <temporary score="62">YES</temporary>
   </item>
+  <item nodeId="node-0x1051b460">
+    <command xml:space="preserve">x car right next to you</command>
+    <result xml:space="preserve">Cars of everyshape and size are everwhere in this massive parking garage. You don&apos;t have time to check all of them out though, who knows when those Brazilians could come back.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="71">YES</temporary>
+    <children>
+      <child nodeId="node-0x10516660" />
+    </children>
+  </item>
+  <item nodeId="node-0x10516660">
+    <command xml:space="preserve">enter ferrari</command>
+    <result xml:space="preserve">You can feel the power of this Italian sports car pulze through your veins as you get in. Luckily someone had left the keys in the cupholder so you power her up and drive off into the night, nobody can catch you now.
+
+
+
+    *** You have won ***
+
+
+In that game you scored 0 out of a possible 0, in 3 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="70">YES</temporary>
+  </item>
   <item nodeId="node-0x6f59b20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Bus
 The Italian team&apos;s bus! Worried about the team you rush inside the bus to find it almost completely empty. As you move past the rows of comfortable seats you reach the back of the bus and find a pile of bags on the seats.
 
-You can see Bags here.
+You can see a rows of seats (empty) and Bags here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="54">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="129">YES</temporary>
     <children>
       <child nodeId="node-0x1b56f50" />
       <child nodeId="node-0x6f59b90" />
-      <child nodeId="node-0xec52510" />
       <child nodeId="node-0x6f61ec0" />
     </children>
   </item>
@@ -1471,41 +1487,207 @@ You can see Bags here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="54">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="128">YES</temporary>
     <children>
       <child nodeId="node-0x1873ea0" />
     </children>
   </item>
   <item nodeId="node-0x1873ea0">
     <command xml:space="preserve">take bags</command>
-    <result xml:space="preserve">As you move to take a closer look at the bags a man bursts from the pile and lands a solid kick to your abdomen. You stagger backwards and lift your arms to block yourself from another hit. As you get a better look at your assailant you gasp in surprise. It&apos;s El Sharaawy, your favorite player on the entire Italian team. As he realizes you&apos;re wearing Italian colors he rushes over to check on you. He explains that when the Brazil fans came charging the rest of the team ran but even though he was the fastest he knew hiding was a better option. You can&apos;t just leave him here alone. You have to take him with you but he&apos;s very adamant about staying. Time for you to do some fancy talking, maybe Asking him About coming with you would be helpful.
+    <result xml:space="preserve">As you move to take a closer look at the bags a man bursts from the pile and lands a solid kick to your abdomen. You stagger backwards and lift your arms to block yourself from another hit. As you get a better look at your assailant you gasp in surprise. It&apos;s El Sharaawy, your favorite player on the Italian team. As he realizes you&apos;re wearing Italian colors he rushes over to check on you. He explains that when the Brazil fans came charging the rest of the team ran but even though he was the fastest he knew hiding was a better option. You want to leave but you can&apos;t just leave him here alone. You have to take him with you but he&apos;s very adamant about staying. Time for you to do some fancy talking, maybe Asking him About coming with you would be helpful.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="53">YES</temporary>
-  </item>
-  <item nodeId="node-0xec52510">
-    <command xml:space="preserve">talk to El Sharaawy</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="128">YES</temporary>
     <children>
-      <child nodeId="node-0x1802d30" />
+      <child nodeId="node-0x105b8ff0" />
     </children>
   </item>
-  <item nodeId="node-0x1802d30">
-    <command xml:space="preserve">talk</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0x105b8ff0">
+    <command xml:space="preserve">ask el about come with me</command>
+    <result xml:space="preserve">He looks at you again and decides that you are a trustworthy looking person. &quot;I&apos;m counting on you to get us out of here. You may need this,&quot; he says and hands you the key to the Garage Door. Time for you to do your job.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb9100" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb9100">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Garage
+The stadium garage. There are still tons of cars here, everyone must have just chosen to run instead of trying to drive off. You can see a fancy bus to the east of you and the Garage door probably leading outside to the west of you.
+
+You can see a Garage Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x18707d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18707d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the Garage Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x1191e070" />
+    </children>
+  </item>
+  <item nodeId="node-0x1191e070">
+    <command xml:space="preserve">unlock with card</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f6d640" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f6d640">
+    <command xml:space="preserve">unlock door with card</command>
+    <result xml:space="preserve">You unlock the Garage Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x1858ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1858ff0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the Garage Door)
+
+Back Street
+A dingy back street, unfitting of the World Cup. By the dim light of the one lamp post you can see multiple trash cans and trash bags lying around. Off in the distance you can hear the Brazillians yelling to each other.
+
+You can see a Garage Door and Trash Cans here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0xec73440" />
+    </children>
+  </item>
+  <item nodeId="node-0xec73440">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fc8b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fc8b80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x10572ba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10572ba0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Park
+You can see a Gas Can here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0xec010b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec010b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Harbor
+You can see a Gasless Boat (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x1193ef50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1193ef50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Park
+You can see a Gas Can here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0xecd96b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xecd96b0">
+    <command xml:space="preserve">take gas</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0xec071e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec071e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Harbor
+You can see a Gasless Boat (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0xec930e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec930e0">
+    <command xml:space="preserve">take boat</command>
+    <result xml:space="preserve">You move the Boat a few feet before realizing it&apos;s way to heavy to carry. You decide to drag it along behind you though, just so no one else steals your boat.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="127">YES</temporary>
   </item>
   <item nodeId="node-0x6f59b90">
     <command xml:space="preserve">x el</command>
@@ -1590,83 +1772,32 @@ You can see Bags here.
   </item>
   <item nodeId="node-0x1b56f50">
     <command xml:space="preserve">take bags</command>
-    <result xml:space="preserve">As you move to take a closer look at the bags a man bursts from the pile and lands a solid kick to your abdomen. You stagger backwards and lift your arms to block yourself from another hit. As you get a better look at your assailant you gasp in surprise. It&apos;s El Sharaawy, your favorite player on the entire Italian team. As he realizes you&apos;re wearing Italian colors he rushes over to check on you. He explains that when the Brazil fans came charging the rest of the team ran but even though he was the fastest he knew hiding was a better option. You can&apos;t just leave him here alone. You have to take him with you but he&apos;s very adamant about staying. Time for you to do some fancy talking, maybe Asking him About coming with you would be helpful.
+    <result xml:space="preserve">As you move to take a closer look at the bags a man bursts from the pile and lands a solid kick to your abdomen. You stagger backwards and lift your arms to block yourself from another hit. As you get a better look at your assailant you gasp in surprise. It&apos;s El Sharaawy, your favorite player on the Italian team. As he realizes you&apos;re wearing Italian colors he rushes over to check on you. He explains that when the Brazil fans came charging the rest of the team ran but even though he was the fastest he knew hiding was a better option. You want to leave but you can&apos;t just leave him here alone. You have to take him with you but he&apos;s very adamant about staying. Time for you to do some fancy talking, maybe Asking him About coming with you would be helpful.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="50">YES</temporary>
+    <temporary score="110">YES</temporary>
     <children>
-      <child nodeId="node-0xed13250" />
       <child nodeId="node-0xec551d0" />
       <child nodeId="node-0x6f6fe70" />
+      <child nodeId="node-0xed13250" />
+      <child nodeId="node-0xed3a910" />
     </children>
   </item>
-  <item nodeId="node-0x6f6fe70">
-    <command xml:space="preserve">ask El about come with me if you want to live</command>
-    <result xml:space="preserve">He looks at you in awe and picks himself off the bags. You begin to change into someone that looks like Arnold Schwarzenegger and you charge out of the bus, blazing a path in front of you with all the fires of hell.
-
-
-
-    *** You have won ***
-
-
-In that game you scored 0 out of a possible 0, in 4 turns.
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-  </item>
-  <item nodeId="node-0xec551d0">
-    <command xml:space="preserve">take el</command>
-    <result xml:space="preserve">As you attempt to pull him out of the bus he does what any sensible person would do and starts flailing around. As one of his kicks flies toward your chest you make a last ditch effort to evade and end up falling out of the bus directly on your head.
-
-
-
-    *** You have died ***
-
-
-In that game you scored 0 out of a possible 0, in 4 turns.
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="50">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b90d40" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b90d40">
-    <command xml:space="preserve">undo</command>
-    <result xml:space="preserve">Bus
-[Previous turn undone.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="50">YES</temporary>
-    <children>
-      <child nodeId="node-0x745a600" />
-    </children>
-  </item>
-  <item nodeId="node-0x745a600">
+  <item nodeId="node-0xed3a910">
     <command xml:space="preserve">ask el about come with me</command>
-    <result xml:space="preserve">He looks at you again and decides that you are a trustworthy looking person. &quot;I&apos;m counting on you to get us out of here,&quot; he says. Time for you to do your job.
+    <result xml:space="preserve">He looks at you again and decides that you are a trustworthy looking person. &quot;I&apos;m counting on you to get us out of here. You may need this,&quot; he says and hands you the key to the Garage Door. Time for you to do your job.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="50">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="109">YES</temporary>
     <children>
-      <child nodeId="node-0xec8e7b0" />
+      <child nodeId="node-0xecc06e0" />
     </children>
   </item>
-  <item nodeId="node-0xec8e7b0">
+  <item nodeId="node-0xecc06e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Garage
@@ -1676,81 +1807,320 @@ You can see a Garage Door here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="50">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x6f80e10" />
+      <child nodeId="node-0xb8f9440" />
     </children>
   </item>
-  <item nodeId="node-0x6f80e10">
+  <item nodeId="node-0xb8f9440">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">(first opening the Garage Door)
 It seems to be locked.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="50">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x747dfa0" />
+      <child nodeId="node-0xec3d9e0" />
+      <child nodeId="node-0x6fcaf30" />
     </children>
   </item>
-  <item nodeId="node-0x747dfa0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">(first opening the Garage Door)
-It seems to be locked.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="50">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f775d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f775d0">
+  <item nodeId="node-0x6fcaf30">
     <command xml:space="preserve">unlock door</command>
-    <result xml:space="preserve">(with the Bag)
-That doesn&apos;t seem to fit the lock.
+    <result xml:space="preserve">What do you want to unlock the Garage Door key with?
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="50">YES</temporary>
+    <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x1bf1480" />
+      <child nodeId="node-0xecb1370" />
     </children>
   </item>
-  <item nodeId="node-0x1bf1480">
-    <command xml:space="preserve">with el</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0xecb1370">
+    <command xml:space="preserve">garage door key</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="50">YES</temporary>
+    <temporary score="81">YES</temporary>
     <children>
-      <child nodeId="node-0x1be1920" />
+      <child nodeId="node-0xed2bde0" />
     </children>
   </item>
-  <item nodeId="node-0x1be1920">
-    <command xml:space="preserve">unlock door with el</command>
-    <result xml:space="preserve">(first taking El Sharaawy)
-As you attempt to pull him out of the bus he does what any sensible person would do and starts flailing around. As one of his kicks flies toward your chest you make a last ditch effort to evade and end up falling out of the bus directly on your head.
+  <item nodeId="node-0xed2bde0">
+    <command xml:space="preserve">unlock garage door with garage door key</command>
+    <result xml:space="preserve">(the Garage Door key with the Garage Door key)
+That doesn&apos;t seem to be something you can unlock.
 
-
-
-    *** You have died ***
-
-
-In that game you scored 0 out of a possible 0, in 9 turns.
-
-
-Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
-&gt; </result>
+&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="49">YES</temporary>
+    <temporary score="81">YES</temporary>
+    <children>
+      <child nodeId="node-0xba05f90" />
+    </children>
+  </item>
+  <item nodeId="node-0xba05f90">
+    <command xml:space="preserve">x garage door</command>
+    <result xml:space="preserve">(the Garage Door key)
+The card key that unlocks the Garage door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+  </item>
+  <item nodeId="node-0xec3d9e0">
+    <command xml:space="preserve">unlock</command>
+    <result xml:space="preserve">What do you want to unlock?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b57540" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b57540">
+    <command xml:space="preserve">garage door</command>
+    <result xml:space="preserve">What do you want to unlock the Garage Door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x7476dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7476dd0">
+    <command xml:space="preserve">card</command>
+    <result xml:space="preserve">You unlock the Garage Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8f9510" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8f9510">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the Garage Door)
+
+Back Street
+A dingy back street, unfitting of the World Cup. By the dim light of the one lamp post you can see multiple trash cans and trash bags lying around. Off in the distance you can hear the Brazillians yelling to each other.
+
+You can see a Garage Door and Trash Cans here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fde0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fde0a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Garage
+The stadium garage. There are still tons of cars here, everyone must have just chosen to run instead of trying to drive off. You can see a fancy bus to the east of you and the Garage door probably leading outside to the west of you.
+
+You can see a Garage Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xed28430" />
+    </children>
+  </item>
+  <item nodeId="node-0xed28430">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Back Street
+A dingy back street, unfitting of the World Cup. By the dim light of the one lamp post you can see multiple trash cans and trash bags lying around. Off in the distance you can hear the Brazillians yelling to each other.
+
+You can see a Garage Door and Trash Cans here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fddeb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fddeb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xedc4740" />
+    </children>
+  </item>
+  <item nodeId="node-0xedc4740">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xec712f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec712f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Park
+You can see a Gas Can here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xed3e850" />
+    </children>
+  </item>
+  <item nodeId="node-0xed3e850">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xed2fe50" />
+    </children>
+  </item>
+  <item nodeId="node-0xed2fe50">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">
+Hotel Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xec059d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec059d0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Hotel
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xec6a7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec6a7b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Park
+You can see a Gas Can here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xed3c540" />
+    </children>
+  </item>
+  <item nodeId="node-0xed3c540">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Harbor
+You can see a Gasless Boat (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xecf0170" />
+    </children>
+  </item>
+  <item nodeId="node-0xecf0170">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Park
+You can see a Gas Can here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b01670" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b01670">
+    <command xml:space="preserve">take gas</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xed95970" />
+    </children>
+  </item>
+  <item nodeId="node-0xed95970">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Harbor
+You can see a Gasless Boat (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0xbab90f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbab90f0">
+    <command xml:space="preserve">combine gas with boat</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+    <children>
+      <child nodeId="node-0x1848720" />
+    </children>
+  </item>
+  <item nodeId="node-0x1848720">
+    <command xml:space="preserve">combine gas with gasless boat</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="105">YES</temporary>
   </item>
   <item nodeId="node-0xed13250">
     <command xml:space="preserve">e</command>
@@ -1921,6 +2291,312 @@ You can see El Sharaawy and Bags here.
     <changed>YES</changed>
     <temporary score="37">YES</temporary>
   </item>
+  <item nodeId="node-0x6f6fe70">
+    <command xml:space="preserve">ask El about come with me if you want to live</command>
+    <result xml:space="preserve">He looks at you in awe and picks himself off the bags. You begin to change into someone that looks like Arnold Schwarzenegger and you charge out of the bus, blazing a path in front of you with all the fires of hell.
+
+
+
+    *** You have won ***
+
+
+In that game you scored 0 out of a possible 0, in 4 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+  <item nodeId="node-0xec551d0">
+    <command xml:space="preserve">take el</command>
+    <result xml:space="preserve">As you attempt to pull him out of the bus he does what any sensible person would do and starts flailing around. As one of his kicks flies toward your chest you make a last ditch effort to evade and end up falling out of the bus directly on your head.
+
+
+
+    *** You have died ***
+
+
+In that game you scored 0 out of a possible 0, in 4 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b90d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b90d40">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Bus
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x745a600" />
+    </children>
+  </item>
+  <item nodeId="node-0x745a600">
+    <command xml:space="preserve">ask el about come with me</command>
+    <result xml:space="preserve">He looks at you again and decides that you are a trustworthy looking person. &quot;I&apos;m counting on you to get us out of here,&quot; he says. Time for you to do your job.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0xec8e7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec8e7b0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Garage
+The stadium garage. There are still tons of cars here, everyone must have just chosen to run instead of trying to drive off. You can see a fancy bus to the east of you and the Garage door probably leading outside to the west of you.
+
+You can see a Garage Door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f80e10" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f80e10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the Garage Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x747dfa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x747dfa0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening the Garage Door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f775d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f775d0">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the Bag)
+That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bf1480" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bf1480">
+    <command xml:space="preserve">with el</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="50">YES</temporary>
+    <children>
+      <child nodeId="node-0x1be1920" />
+    </children>
+  </item>
+  <item nodeId="node-0x1be1920">
+    <command xml:space="preserve">unlock door with el</command>
+    <result xml:space="preserve">(first taking El Sharaawy)
+As you attempt to pull him out of the bus he does what any sensible person would do and starts flailing around. As one of his kicks flies toward your chest you make a last ditch effort to evade and end up falling out of the bus directly on your head.
+
+
+
+    *** You have died ***
+
+
+In that game you scored 0 out of a possible 0, in 9 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+  </item>
+  <item nodeId="node-0x7424620">
+    <command xml:space="preserve">x cars</command>
+    <result xml:space="preserve">Cars of everyshape and size are everwhere in this massive parking garage. You don&apos;t have time to check all of them out though, who knows when those Brazilians could come back.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f9a5f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f9a5f0">
+    <command xml:space="preserve">enter ferrari</command>
+    <result xml:space="preserve">You can feel the power of this Italian sports car pulze through your veins as you get in. Luckily someone had left the keys in the cupholder so you power her up and drive off into the night, nobody can catch you now.
+
+
+
+    *** You have won ***
+
+
+In that game you scored 0 out of a possible 0, in 3 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x742e1e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x742e1e0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Garage
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0xec87b80" />
+    </children>
+  </item>
+  <item nodeId="node-0xec87b80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Stadium Concourse
+The stadium concourse, you can see the angry mob of Brazilians running off into the distance. Around you there are food kiosks and booths selling booster wear for Brazil, Italy, and FIFA. There&apos;s also a trashcan, recycle bin, and trash on the ground. There&apos;s a garage to the north of you.
+
+You can see Bottles, FIFA Booster Wear, Brazil Booster Wear, Italy Booster Wear and Trash here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x7413a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x7413a50">
+    <command xml:space="preserve">take soda</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x7410270" />
+    </children>
+  </item>
+  <item nodeId="node-0x7410270">
+    <command xml:space="preserve">x recycle</command>
+    <result xml:space="preserve">A recycle bin, you can see bottles of different drinks inside. For some reason there seems to be an unopened can of soda inside the bin as well.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0xecb97e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xecb97e0">
+    <command xml:space="preserve">take soda</command>
+    <result xml:space="preserve">You put the Sprite in your bag for later. You may need it more then.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0xed36ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0xed36ec0">
+    <command xml:space="preserve">take italy</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0xbac1990" />
+    </children>
+  </item>
+  <item nodeId="node-0xbac1990">
+    <command xml:space="preserve">take fifa</command>
+    <result xml:space="preserve">[Your score has just gone up by one point.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fcaea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fcaea0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Garage
+The stadium garage. There are still tons of cars here, everyone must have just chosen to run instead of trying to drive off. You can see a fancy bus to the east of you and the Garage door probably leading outside to the west of you.
+
+You can see a Garage Door and a Ferrari (empty) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+    <children>
+      <child nodeId="node-0xedc6ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0xedc6ac0">
+    <command xml:space="preserve">enter ferrari</command>
+    <result xml:space="preserve">You can feel the power of this Italian sports car pulze through your veins as you get in. Luckily someone had left the keys in the cupholder so you power her up and drive off into the night, nobody can catch you now.
+
+
+
+    *** You have won ***
+
+
+In that game you scored 2 out of a possible 0, in 9 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="67">YES</temporary>
+  </item>
   <item nodeId="node-0x6f59ea0">
     <command xml:space="preserve">x El Sharaawt</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
@@ -2040,18 +2716,6 @@ Bus
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f5a300" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f5a300">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
   </item>
   <item nodeId="node-0x6f5a370">
     <command xml:space="preserve">take fifa</command>
@@ -2086,29 +2750,6 @@ Bus
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
   </item>
-  <item nodeId="node-0x6f5a4c0">
-    <command xml:space="preserve">take bottles</command>
-    <result xml:space="preserve">[Your score has just gone up by one point.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f5a530" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f5a530">
-    <command xml:space="preserve">take fifa booster wear</command>
-    <result xml:space="preserve">El Sharaawy arrives from the north.
-
-[Your score has just gone up by one point.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="2">YES</temporary>
-  </item>
   <item nodeId="node-0x6f5a5a0">
     <command xml:space="preserve">take brazil</command>
     <result xml:space="preserve">You will not dirty your hands by touching that filth.
@@ -2117,86 +2758,6 @@ Bus
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
-  </item>
-  <item nodeId="node-0x6f5a610">
-    <command xml:space="preserve">x recycle bing</command>
-    <result xml:space="preserve">I only understood you as far as wanting to examine the Recycle Bin.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f5a680" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f5a680">
-    <command xml:space="preserve">x recycle</command>
-    <result xml:space="preserve">A recycle bin, you can see bottles of different drinks inside. For some reason there seems to be an unopened can of soda inside the bin as well.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f5a6f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f5a6f0">
-    <command xml:space="preserve">x recycle</command>
-    <result xml:space="preserve">A recycle bin, you can see bottles of different drinks inside. For some reason there seems to be an unopened can of soda inside the bin as well.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f5a760" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f5a760">
-    <command xml:space="preserve">take soda</command>
-    <result xml:space="preserve">[Your score has just gone up by one point.]
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f5a7d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f5a7d0">
-    <command xml:space="preserve">x soda</command>
-    <result xml:space="preserve">A can of Sprite. You put it in your bag for later.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="8">YES</temporary>
-  </item>
-  <item nodeId="node-0x6f5a840">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">(the Bag)
-An Italy booster bag, why would you have anything else. Everything you take will end up in here so there&apos;s no need to carry all that wierd stuff.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f5a8b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f5a8b0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  a Bag
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="2">YES</temporary>
   </item>
   <item nodeId="node-0x6f5a920">
     <command xml:space="preserve"></command>
